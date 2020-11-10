@@ -1,0 +1,7 @@
+<h1>Task</h1>
+
+<h3> <%= @task.title %> </h3>
+<p> <%= @task.details %>, created: <%= @task.created_at %> </p>
+
+<%= link_to "Go back to tasks", tasks_path %>
+<%= link_to "edit this task", edit_task_path %>
